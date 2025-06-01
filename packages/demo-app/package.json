@@ -1,0 +1,27 @@
+ {
+  "name": "@statusgraph/demo-app",
+  "version": "0.1.0",
+  "private": true,
+  "description": "StatusGraph 演示应用",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "clean": "rimraf dist",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@statusgraph/core": "workspace:*",
+    "@statusgraph/shared": "workspace:*",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "redux": "^4.2.1",
+    "react-redux": "^8.0.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^3.1.0",
+    "rimraf": "^4.4.1",
+    "vite": "^4.2.1"
+  }
+}

@@ -1,0 +1,25 @@
+ {
+  "name": "@statusgraph/core",
+  "version": "0.1.0",
+  "description": "StatusGraph 核心包",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "rollup -c -w",
+    "build": "rollup -c",
+    "clean": "rimraf dist",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@statusgraph/shared": "workspace:*"
+  },
+  "devDependencies": {
+    "rimraf": "^4.4.1",
+    "rollup": "^3.20.2",
+    "rollup-plugin-typescript2": "^0.34.1"
+  }
+}

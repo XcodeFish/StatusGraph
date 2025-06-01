@@ -1,0 +1,48 @@
+ {
+  "name": "statusgraph",
+  "version": "0.1.0",
+  "private": true,
+  "description": "轻量级状态管理可视化工具",
+  "scripts": {
+    "dev": "pnpm --recursive --parallel run dev",
+    "build": "pnpm --recursive run build",
+    "test": "jest",
+    "lint": "eslint . --ext .ts,.tsx",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
+    "clean": "pnpm --recursive run clean",
+    "prepare": "husky install"
+  },
+  "keywords": [
+    "state-management",
+    "visualization",
+    "redux",
+    "vuex",
+    "pinia",
+    "recoil",
+    "jotai",
+    "devtools"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^18.15.11",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
+    "eslint": "^8.38.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "husky": "^8.0.3",
+    "jest": "^29.5.0",
+    "lint-staged": "^13.2.1",
+    "prettier": "^2.8.7",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.4"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "pnpm": ">=7.0.0"
+  }
+}
